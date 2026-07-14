@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PRiTi.EX | Security Researcher</title>
+
+<link href="https://avatars.githubusercontent.com/u/221162877?v=4&size=64">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0d1117;
+    color:#e6edf3;
+    font-family:'Share Tech Mono', monospace;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    background:#161b22;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:20px;
+    border-bottom:1px solid #00ff41;
+    z-index:1000;
+}
+
+nav a{
+    color:#00ff41;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    text-shadow:0 0 10px #00ff41;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:3px solid #00ff41;
+    box-shadow:0 0 20px #00ff41;
+    object-fit:cover;
+    transition:.3s;
+}
+
+.hero img:hover{
+    transform:scale(1.05);
+}
+
+.hero h1{
+    margin-top:20px;
+    font-size:3.5rem;
+    color:#00ff41;
+}
+
+.typing{
+    margin-top:15px;
+    font-size:1.1rem;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+h2{
+    color:#00ff41;
+    margin-bottom:20px;
+    border-left:4px solid #00ff41;
+    padding-left:12px;
+}
+
+.card{
+    background:#161b22;
+    border:1px solid #00ff41;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 15px rgba(0,255,65,.5);
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+}
+
+.skill{
+    background:#161b22;
+    border:1px solid #00ff41;
+    padding:15px;
+    text-align:center;
+    border-radius:8px;
+}
+
+.skill:hover{
+    box-shadow:0 0 10px rgba(0,255,65,.5);
+}
+
+a{
+    color:#00ff41;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+    border-top:1px solid #00ff41;
+    background:#161b22;
+}
+
+.glow{
+    text-shadow:0 0 10px #00ff41;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#space">My Space</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+
+<img src="profile.jpg" alt="PRiTi.EX">
+
+<h1 class="glow">PRiTi.EX</h1>
+
+<p class="typing">
+Bug Hunter | Cybersecurity | Offensive Security 
+</p>
+
+</div>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+Hello, I'm Pritiranjan Mohanta from Odisha, India.
+</p>
+
+<br>
+
+<p>
+My work focuses on web application security, vulnerability research, offensive security, network security, bug hunting, and practical security testing.
+</p>
+
+<br>
+
+<p>
+I build cybersecurity projects, document security research, create labs for hands-on practice, and continuously explore emerging attack techniques and defensive strategies.
+</p>
+
+<br>
+
+<p>
+Outside cybersecurity, I enjoy cycling, technology, and exploring new challenges.
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Linux</div>
+<div class="skill">Windows</div>
+<div class="skill">Networking</div>
+<div class="skill">Web Security</div>
+<div class="skill">VAPT</div>
+<div class="skill">Burp Suite</div>
+<div class="skill">Nmap</div>
+<div class="skill">Metasploit</div>
+<div class="skill">Wireshark</div>
+<div class="skill">Python</div>
+<div class="skill">OSINT</div>
+<div class="skill">AWS</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="card">
+<h3>ENOS Lab</h3>
+<p>
+Enterprise Network Operations & Security Lab featuring VLANs, routing, monitoring, intrusion detection, and network hardening.
+</p>
+</div>
+
+<div class="card">
+<h3>PRiTi.EX Lab</h3>
+<p>
+A vulnerable web application designed for security testing, exploitation practice, and defensive learning.
+</p>
+</div>
+
+<div class="card">
+<h3>PSCG</h3>
+<p>
+Password Strength Checker & Generator with security-focused validation and analysis features.
+</p>
+</div>
+
+</section>
+
+<section id="space">
+
+<h2>My Space</h2>
+
+<div class="card">
+Research Notes
+</div>
+
+<div class="card">
+Security Writeups
+</div>
+
+<div class="card">
+Bug Hunting Notes
+</div>
+
+<div class="card">
+Project Ideas
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="card">
+
+<p>
+GitHub:
+<a href="https://github.com/PRiTi-EX" target="_blank">
+github.com/PRiTi-EX
+</a>
+</p>
+
+<br>
+
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/pritiranjan-mohanta-ab77b4338/" target="_blank">
+View Profile
+</a>
+</p>
+
+<br>
+
+<p>
+X:
+<a href="https://x.com/priti_ex" target="_blank">
+@priti_ex
+</a>
+</p>
+
+<br>
+
+<p>
+Email:
+<a href="mailto:pritiranjanmohanta6371@gmail.com">
+pritiranjanmohanta6371@gmail.com
+</a>
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+PRiTi.EX | Security Research • Bug Hunting • Cybersecurity
+
+</footer>
+
+</body>
+</html>
